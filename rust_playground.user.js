@@ -15,7 +15,7 @@ function fixedEncodeURIComponent(str) {
 
 function addCodeParam(code) {
     // Removing existing code component
-    var search = window.location.search.replace(/^\?/, '').replace(/code=.*?(?=&|$)/g, '');
+    var search = window.location.search.replace(/^\?/, '').replace(/&?code=.*?(?=&|$)/g, '');
     var newSearch = "?";
     if (search === "") {
         newSearch += "code=" + code;
