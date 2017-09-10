@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Rust Playground URL sharing
+// @namespace    https://github.com/Noskcaj19/Rust-Playground-URL-Sharing
 // @version      0.1
 // @description  Export code in URL from Rust Playground
 // @author       Noskcaj
 // @match        *://play.rust-lang.org/*
+// @updateURL    https://cdn.rawgit.com/Noskcaj19/Rust-Playground-URL-Sharing/master/rust_playground.user.js
 // ==/UserScript==
 
 // Thanks MDN
