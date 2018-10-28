@@ -2,6 +2,10 @@
 
 A userscript to add sharing code in URLs to the [Rust Playground](https://play.rust-lang.org/).
 
+## Deprecated
+
+The new playground now generates the code links, making this userscript unnecessary.
+
 ### Installation
 
 You can run this userscript by installing [Tampermonkey](https://tampermonkey.net), a Userscript extension that supports *tons* of browser and probably yours. Just go [here](https://github.com/Noskcaj19/Rust-Playground-URL-Sharing/blob/master/rust_playground.user.js), and either A) Click "raw" and it should prompt you to install it, or B) copy + paste the code into the "Add New Script" area.
